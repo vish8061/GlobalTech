@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>GLOBALTECH_REGISTRATION</title>
+<style>
+.div1{
+margin:auto;
+margin-top:100px;
+padding: 10px;
+border:2px inset grey;
+width:300px;
+height:100%;
+}
+input{
+width:100%;
+}
+label{
+align:center;
+}
+form{
+margin-top:20px;
+}
+body{
+background-color:powderblue;
+}
+</style>
+</head>
+<body>
+
+
+	
+	<div class="div1">
+	<form action="Controller_Servlet?do=Register" method="post">
+		<label>EmployeeID: </label><br>
+		<input type="number" placeholder="Enter Employee ID" name="employeeid" required><br><br>
+		
+		<label>FirstName: </label><br>
+		<input type="text" placeholder="Enter First Name" name="firstname" required><br><br>
+		
+		<label>LastName:</label><br>
+		<input type="text" placeholder="Enter Last Name" name="lastname" required><br><br>
+		
+		<label>Date of Birth:(dd-mm-yyyy)</label><br>
+		<input type="text" name="dateofjoining" ><br><br>
+		
+		<label>Department:</label><br>
+		<input type="text" placeholder="Enter Department Name" name="department" required><br><br>
+		</select><br> 
+		<input type="submit" value="Add User" style="margin: auto">
+	</form>
+	</div>
+
+
+
+
+
+
+</body>
+</html>
